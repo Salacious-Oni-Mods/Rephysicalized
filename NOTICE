@@ -1,0 +1,18 @@
+Rephysicalized - licence scope
+
+The MIT License in LICENSE covers the Rephysicalized source code written by
+MitBoy42: every file in this repository except the items listed below.
+
+NOT covered by LICENSE (third-party, their own terms apply):
+
+- UtilLibs (referenced by Rephysicalized.csproj as ../UtilLibs/UtilLibs.csproj
+  and shipped as UtilLibs.dll) and the shared build configuration this project
+  was created in, both from https://github.com/Sgt-Imalas/Sgt_Imalas-Oni-Mods,
+  licensed under the Sgt_Imalas ModRepository License v1.0. That licence
+  permits publishing source and forks but restricts distribution of compiled
+  builds that contain or derive from that code. Anyone building and
+  distributing a binary of this project must satisfy that licence for the
+  UtilLibs portion.
+- PLib (PeterHan), under its own licence.
+- Oxygen Not Included game assemblies and assets, property of Klei
+  Entertainment, referenced only.
